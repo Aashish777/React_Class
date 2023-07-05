@@ -1,7 +1,6 @@
 header {
-  padding: 0.5em 0;
+  padding: 1em 0;
   margin: 0 auto !important;
-  background-color: aquamarine;
 }
 ul {
   list-style: none;
@@ -11,6 +10,12 @@ ul {
 .header-nav {
   gap: 2em;
 }
+.header-span span {
+  font-weight: 600;
+}
+.header-span {
+  gap: 1em;
+}
 
 .flex {
   display: flex;
@@ -19,14 +24,14 @@ ul {
 }
 .container {
   max-width: 85%;
-  margin: 1.5em auto;
+  margin: 5em auto;
 }
 .hero-image {
-  height: 600px;
-  width: 600px;
+  height: 400px;
+  width: 400px;
 }
 .save-money {
-  margin-top: -5em;
+  /* margin-top: -5em; */
 }
 .services img {
   height: 300px;
@@ -37,11 +42,16 @@ ul {
   padding: 0px;
 }
 .about img {
-  height: 500px;
-  width: 500px;
+  height: 300px;
+  width: 300px;
+  object-fit: contain;
+  transition: all 0.3s ease-in-out;
 }
 .about p {
   max-width: 40%;
+}
+.about {
+  padding: 1em;
 }
 .footer img {
   height: 100px;
@@ -59,4 +69,26 @@ ul {
 }
 .footer1 p {
   text-align: center;
+}
+.hero-section {
+  text-align: center;
+}
+.service-card {
+  border: 5px solid var(--color-dark);
+  text-align: center;
+  padding: 1.5em;
+  max-width: 20%;
+}
+.service-card span svg {
+  height: 5em;
+  width: 5em;
+}
+.service-card:hover {
+  border-color: var(--color-accent);
+}
+.service-card:hover span svg {
+  stroke: var(--color-accent);
+}
+.paragraph {
+  align-items: start;
 }

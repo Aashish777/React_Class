@@ -1,10 +1,10 @@
 const Navbar = () => {
   return (
-    <header>
-      <div className="flex container">
-        <span className=" header-sapn flex">
+    <header className="container">
+      <div className="flex">
+        <span className=" header-span flex">
           <img src="/vite.svg" />
-          <h1>Expense Tracking</h1>
+          <span>Expense Tracking</span>
         </span>
         <nav>
           <ul className="header-nav flex">
