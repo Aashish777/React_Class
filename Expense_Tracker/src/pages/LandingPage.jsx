@@ -5,7 +5,7 @@ import { Footer } from "../Component/Landing/Footer";
 import Services from "../Component/Landing/Services";
 const LandingPage = () => {
   return (
-    <main>
+    <main id="home">
       <Navbar />
       <div className="hero-section container">
         <h1 className="save-money">Save the money </h1>

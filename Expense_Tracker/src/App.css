@@ -66,6 +66,7 @@ ul {
   padding-block: 2em;
   background-color: darkcyan;
   color: white;
+  padding: 0.5em;
 }
 .footer1 p {
   text-align: center;
@@ -91,4 +92,10 @@ ul {
 }
 .paragraph {
   align-items: start;
+}
+.input {
+  padding: 1em;
+  width: 100%;
+  background-color: var(--color-light);
+  color: var(--color-dark);
 }

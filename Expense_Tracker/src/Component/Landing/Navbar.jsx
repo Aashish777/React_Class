@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <header className="container">
@@ -8,10 +10,17 @@ const Navbar = () => {
         </span>
         <nav>
           <ul className="header-nav flex">
-            <li>Services</li>
-            <li>About</li>
             <li>
-              <button>Sign in</button>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#service">Services</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <Link to="/auth/login">Sign In</Link>
             </li>
           </ul>
         </nav>

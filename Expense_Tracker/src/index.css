@@ -19,6 +19,9 @@
   --color-dark: #001029;
   --color-light: #fbfaf5;
 }
+* {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Poppins", sans-serif;
   margin: 1px;

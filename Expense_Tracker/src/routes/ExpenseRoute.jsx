@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 //rafce
 import LandingPage from "../pages/LandingPage";
+import Login from "../pages/Authentication/login";
+import Register from "../pages/Authentication/register";
 
 const ExpenseRoute = () => {
   return (
@@ -17,8 +19,8 @@ const ExpenseRoute = () => {
 const AuthRoutes = () => {
   return (
     <Routes>
-      <Route path="login" element={<h1>Login</h1>} />
-      <Route path="register" element={<h1>Register</h1>} />
+      <Route path="login" element={<Login />} />
+      <Route path="register" element={<Register />} />
     </Routes>
   );
 };

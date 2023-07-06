@@ -4,7 +4,7 @@ import ServiceCard from "./ServiceCard";
 
 const Services = () => {
   return (
-    <div className="flex container">
+    <div id="service" className="flex container">
       <div>
         <h2>Services</h2>
         <div className="flex services ">
